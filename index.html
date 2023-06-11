@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon/image" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgk2taRC1gE7C0ZCg8KXsFIsMNceW190QFQ&usqp=CAU">
+    <title>Apple Store</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            width: 100vw;
+            height: 10vh;
+        }
+        .nav-bar{
+            margin-left:43vw;
+        }
+        .nav-bar ul img{
+            height: 10vh;
+            width: 10vw;
+            margin-right: 20px;
+
+        }
+        ul{
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto auto;
+            list-style: none;
+            align-items: center;
+            margin: 0 20px 0 20px;
+
+        }
+        li a{
+            margin: 0 20px 0 20px;
+            text-decoration: none;
+            color: black;
+            margin-top: 4vw;
+
+        }
+        .highlight{
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(216, 222, 220);
+            align-items: center;
+
+        }
+        .highlight h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: small;
+            padding-top: 4vh;
+            text-align: center;
+           
+        }
+        .store img{
+            height: 70vh;
+            width: 70vw;
+            margin: 5vh;
+        }
+        .heading{
+            margin: 5vh 0 1vh 5vh;
+        }
+        .color{
+            position: absolute;
+            margin-top: 10vh;
+            right: 9vw;
+        }
+        .button{
+            font-family: 'Courier New', Courier, monospace;
+            border: 0.1px solid rgb(216, 222, 220);
+            font-size: large;
+            padding: 10px 5px;
+            border-radius: 10px;
+            width: 6vw;
+            text-align: center;
+        }
+        .btn{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            column-gap: 5vh;
+            row-gap: 3vh;
+            margin-top: 10px;
+        }
+        .button:hover{
+            background-color: rgb(216, 222, 220);
+            transition: 0.5s;
+        }
+        .cards{
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 5vw;
+            margin-left: 15vw;
+        }
+        .card{
+            width: 20vw;
+            border: 0.1px solid rgb(216, 222, 220);
+            border-radius: 20px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .card:hover{
+            transform: scale(1.05);
+            transition: 0.5s;
+
+        }
+        .card h4{
+            margin-top: 20px;
+        }
+        .card .image{
+            width: 10vw;
+            margin-left: 5vw;
+            height: 30vh;
+            padding-top: 10px;
+        }
+        .head1{
+            margin-left: 2vh;
+            width: 16vw;
+            margin-top: 5vh;
+            text-align: center;
+        }
+        .head1 h3{
+            opacity: 0.6;
+        }
+        .head{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-bottom: 0.1px solid black;
+        }
+        .head2{
+            width: 16vw;
+            margin-left: 2vh;
+            margin-top: 2vh;
+            opacity: 0.6;
+
+        }
+        #new{
+            
+            margin-top: 10vh;
+            background-color: rgb(216, 222, 220);
+        }
+        #new .new1 img{
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="nav-bar">
+            <ul>
+                <img src="https://avatars.mds.yandex.net/i?id=015bafdcbb6e31d5847e66ffc192eb6129030aa0-8272935-images-thumbs&n=13" alt="icon">
+                <li><a href="#store">Store</a></li>
+                <li><a href="#new">What's New ?</a></li>
+                <li><a href="#compare">Comparision</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <h3>Get up to ₹6000 instant savings on selected iPhone models with eligible HDFC Bank Cards. Plus No Cost EMI from most leading banks.§ <a href="#"> See offers</a></h3>
+
+    </div>
+
+    <section id="store">
+        <div class="store">
+            <div class="heading">
+                <h1 class="name" style="font-size: xx-large;"> Buy iPhone 13</h1>
+                <h5 style="font-size: small;font-family: Verdana, Geneva, Tahoma, sans-serif;opacity: 0.6;margin-top: 10px;">From ₹10317.00/mo.Per Month with instant savings§§ and No Cost EMI Footnote or ₹64900.00 only</h5>
+            </div>
+
+            <div class="color">
+
+                <h1 class="head">Choose Colour</h1>
+                <div class="btn">
+                    <h1 class="button">Red</h1>
+                    <h1 class="button">Blue</h1>
+                </div>
+                <br><br>
+
+                <h1 class="head">Storage</h1>
+                <div class="btn">
+                    <h1 class="button">128GB</h1>
+                    <h1 class="button">256GB</h1>
+                </div>
+                <br><br>
+
+                <h1 class="head">Model</h1>
+                <div class="btn">
+                    <h1 class="button">PRO</h1>
+                    <h1 class="button">PRO MAX</h1>
+                    <h1 class="button">MINI</h1>
+                </div>
+
+                
+            </div>
+
+
+            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-model-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1654893619853" alt="iphone13">
+        </div>
+
+
+    </section>
+
+    <hr>
+    <br>
+
+    <section id="compare">
+        <h1 style="font-size: xx-large;margin-left: 5vh;">Comparision</h1>
+        <br><br>
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlp1bjAcRC8oO2nO2g6cn755-XZtAJdXb0glsGUNsoCDoUgaPg" alt="iphone13" class="image">
+               <div class="head1">
+                    <h1 style="font-size: xx-large;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-bottom: 10px;">iphone 14 Pro</h1>
+                    <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">The Ultimate iphone.</h3>
+               </div>
+                <br>
+                <hr style="width:16vw;margin-left: 2vw;">
+               <div class="head2">
+                    <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">17.00 cm (6.7″) or 15.54 cm (6.1″)</h3>
+                    <h4 style="text-align: center;margin-top: 10px;">Super Retina XDR display2</h4>
+                    <h4>Dynamic Island A new way to interact with iPhone</h4>
+                    <h4>48MP Main Ultra Wide</h4>
+               </div>
+            </div>
+
+
+             <div class="card">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTb6r2wlNKxYVCmBKpkH2h5UjMVdsMG9OjFPEc82DLJfR5pQ1ub" alt="iphone13" class="image">
+                <div class="head1">
+                    <h1 style="font-size: xx-large;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-bottom: 10px;">iphone 14</h1>
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">A total powerhouse</h4>
+               </div>
+                <br>
+                <hr style="width:16vw;margin-left: 2vw;">
+               <div class="head2">
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">16.95 cm (6.7″) or
+                        15.40 cm (6.1″)</h4>
+                    <h4 style="text-align: center;margin-top: 10px;">Super Retina XDR display2</h4>
+                    <h4>-</h4>
+                    <h4>12MP Main Ultra Wide</h4>
+               </div>
+
+             </div>
+
+             <div class="card">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9mDzj2Wm45N1LnMFrXbrbkp5XsCzgsPddq7UqxKfCDjLrTeBk" alt="iphone14" class="image">
+                <div class="head1">
+                    <h1 style="font-size: xx-large;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-bottom: 10px;">iphone 14</h1>
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">As amazing as ever.</h4>
+               </div>
+                <br>
+                <hr style="width:16vw;margin-left: 2vw;">
+               <div class="head2">
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">15.40 cm (6.1″) or
+                        13.76 cm (5.4″)</h4>
+                    <h4 style="text-align: center;margin-top: 10px;">Super Retina XDR display2</h4>
+                    <h4>-</h4>
+                    <h4>12MP Main Ultra Wide</h4>
+               </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="new">
+        <h1 style="padding-top: 5vh;height: 20px;font-size:xx-large; text-align: center;color: rgb(6, 5, 5);">What's New ?</h1>
+        <div class="new1" style="margin-top: 10vh;">
+            <img src="file:///E:/Internships/InfoAidTech/New%20folder/media/airtag.png" alt="Air Tag">
+        </div>
+        <div class="new1" style="margin-top: 10vh;">
+            <img src="file:///E:/Internships/InfoAidTech/New%20folder/media/Mobiletag.png" alt="Air Tag">
+        </div>
+        <div class="new1" style="margin-top: 10vh;">
+            <img src="file:///E:/Internships/InfoAidTech/New%20folder/media/headset.png" alt="Air Tag">
+        </div>
+    </section>
+
+    <div class="footer" style="background-color:rgb(216, 222, 220);height: 10vh;">
+        <h3 style="opacity:0.6;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: medium; text-align: center;padding-top: 4vh;">Copyright © 2023 Apple Inc. All rights reserved.</h3>
+
+    </div>
+    
+</body>
+</html>
